@@ -1,43 +1,36 @@
-import { component$ } from '@builder.io/qwik';
-import {
-  type DocumentHead,
-  routeLoader$,
-  routeAction$,
-  zod$,
-  z,
-  Form,
-} from '@builder.io/qwik-city';
-import styles from './todolist.module.css';
+import { component$ } from '@builder.io/qwik'
+import { type DocumentHead, routeLoader$, routeAction$, zod$, z, Form } from '@builder.io/qwik-city'
+import styles from './todolist.module.css'
 
 interface ListItem {
-  text: string;
+  text: string
 }
 
-export const list: ListItem[] = [];
+export const list: ListItem[] = []
 
 export const useListLoader = routeLoader$(() => {
-  return list;
-});
+  return list
+})
 
 export const useAddToListAction = routeAction$(
   (item) => {
-    list.push(item);
+    list.push(item)
     return {
       success: true,
-    };
+    }
   },
   zod$({
     text: z.string().trim().min(1),
-  })
-);
+  }),
+)
 
 export default component$(() => {
-  const list = useListLoader();
-  const action = useAddToListAction();
+  const list = useListLoader()
+  const action = useAddToListAction()
 
   return (
     <>
-      <div class="container container-center">
+      <div class="container-center container">
         <h1>
           <span class="highlight">TODO</span> List
         </h1>
@@ -45,7 +38,7 @@ export default component$(() => {
 
       <div role="presentation" class="ellipsis"></div>
 
-      <div class="container container-center">
+      <div class="container-center container">
         {(list.value.length && (
           <ul class={styles.list}>
             {list.value.map((item, index) => (
@@ -55,7 +48,7 @@ export default component$(() => {
         )) || <span class={styles.empty}>No items found</span>}
       </div>
 
-      <div class="container container-center">
+      <div class="container-center container">
         <Form action={action} spaReset>
           <input type="text" name="text" required class={styles.input} />{' '}
           <button type="submit" class="button-dark">
@@ -66,9 +59,9 @@ export default component$(() => {
         <p class={styles.hint}>PS: This little app works even when JavaScript is disabled.</p>
       </div>
     </>
-  );
-});
+  )
+})
 
 export const head: DocumentHead = {
   title: 'Qwik Todo List',
-};
+}

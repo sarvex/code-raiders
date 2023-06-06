@@ -1,10 +1,10 @@
-import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
+import { component$ } from '@builder.io/qwik'
+import type { DocumentHead } from '@builder.io/qwik-city'
 
-import Counter from '~/components/starter/counter/counter';
-import Hero from '~/components/starter/hero/hero';
-import Infobox from '~/components/starter/infobox/infobox';
-import Starter from '~/components/starter/next-steps/next-steps';
+import Counter from '~/components/starter/counter/counter'
+import Hero from '~/components/starter/hero/hero'
+import Infobox from '~/components/starter/infobox/infobox'
+import Starter from '~/components/starter/next-steps/next-steps'
 
 export default component$(() => {
   return (
@@ -15,7 +15,7 @@ export default component$(() => {
       <div role="presentation" class="ellipsis"></div>
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
 
-      <div class="container container-center container-spacing-xl">
+      <div class="container-center container-spacing-xl container">
         <h3>
           You can <span class="highlight">count</span>
           <br /> on me
@@ -23,7 +23,7 @@ export default component$(() => {
         <Counter />
       </div>
 
-      <div class="container container-flex">
+      <div class="container-flex container">
         <Infobox>
           <div q:slot="title" class="icon icon-cli">
             CLI Commands
@@ -58,8 +58,7 @@ export default component$(() => {
               Example Apps
             </div>
             <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{' '}
-              <a href="/demo/todolist">Todo App</a>.
+              Have a look at the <a href="/demo/flower">Flower App</a> or the <a href="/demo/todolist">Todo App</a>.
             </p>
           </Infobox>
 
@@ -98,8 +97,8 @@ export default component$(() => {
         </div>
       </div>
     </>
-  );
-});
+  )
+})
 
 export const head: DocumentHead = {
   title: 'Welcome to Qwik',
@@ -109,4 +108,4 @@ export const head: DocumentHead = {
       content: 'Qwik site description',
     },
   ],
-};
+}

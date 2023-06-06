@@ -1,4 +1,4 @@
-import { Parameters } from 'storybook-framework-qwik';
+import { Parameters } from 'storybook-framework-qwik'
 
 export const parameters: Parameters = {
   a11y: {
@@ -14,4 +14,4 @@ export const parameters: Parameters = {
   docs: {
     iframeHeight: '200px',
   },
-};
+}

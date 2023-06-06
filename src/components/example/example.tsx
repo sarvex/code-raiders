@@ -1,9 +1,9 @@
-import { component$, useStore } from '@builder.io/qwik';
+import { component$, useStore } from '@builder.io/qwik'
 
 export const ExampleTest = component$((props: { flag: boolean }) => {
   const state = useStore({
     counter: 0,
-  });
+  })
 
   return (
     <>
@@ -13,5 +13,5 @@ export const ExampleTest = component$((props: { flag: boolean }) => {
         Increment counter
       </button>
     </>
-  );
-});
+  )
+})

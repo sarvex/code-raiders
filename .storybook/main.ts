@@ -1,4 +1,4 @@
-import { StorybookConfig } from 'storybook-framework-qwik';
+import { StorybookConfig } from 'storybook-framework-qwik'
 
 const config: StorybookConfig = {
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
@@ -15,8 +15,8 @@ const config: StorybookConfig = {
   ],
 
   viteFinal: async (config: any) => {
-    return config;
+    return config
   },
-};
+}
 
-export default config;
+export default config
