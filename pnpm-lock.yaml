@@ -9,8 +9,8 @@ devDependencies:
     specifier: 0.8.1
     version: 0.8.1
   '@builder.io/qwik':
-    specifier: 1.2.18
-    version: 1.2.18(@types/node@20.10.0)(undici@5.28.1)
+    specifier: 1.2.19
+    version: 1.2.19(@types/node@20.10.0)(undici@5.28.1)
   '@builder.io/qwik-city':
     specifier: 1.2.18
     version: 1.2.18(@types/node@20.10.0)
@@ -58,7 +58,7 @@ devDependencies:
     version: 13.6.0
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.2.18)(cypress@13.6.0)
+    version: 0.3.0(@builder.io/qwik@1.2.19)(cypress@13.6.0)
   eslint:
     specifier: 8.54.0
     version: 8.54.0
@@ -79,7 +79,7 @@ devDependencies:
     version: 7.5.3
   storybook-framework-qwik:
     specifier: 0.2.4
-    version: 0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.10.0)(typescript@5.3.2)(vite@5.0.2)
+    version: 0.2.4(@builder.io/qwik@1.2.19)(@types/node@20.10.0)(typescript@5.3.2)(vite@5.0.2)
   tailwindcss:
     specifier: 3.3.5
     version: 3.3.5
@@ -1462,8 +1462,8 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.18(@types/node@20.10.0)(undici@5.28.1):
-    resolution: {integrity: sha512-YfkpRI8IoJ6OkIlMoJ4jdjbotZSmBfMtf9ibxbf9vZLgKVLkSbSb4hgpA+NMWwQb/ojgn/6YJ49MwaZP81sm4Q==}
+  /@builder.io/qwik@1.2.19(@types/node@20.10.0)(undici@5.28.1):
+    resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -5611,13 +5611,13 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.18)(cypress@13.6.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.19)(cypress@13.6.0):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.10.0)(undici@5.28.1)
+      '@builder.io/qwik': 1.2.19(@types/node@20.10.0)(undici@5.28.1)
       '@cypress/mount-utils': 4.0.0
       cypress: 13.6.0
     dev: true
@@ -10470,13 +10470,13 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.18)(@types/node@20.10.0)(typescript@5.3.2)(vite@5.0.2):
+  /storybook-framework-qwik@0.2.4(@builder.io/qwik@1.2.19)(@types/node@20.10.0)(typescript@5.3.2)(vite@5.0.2):
     resolution: {integrity: sha512-+2H5vx32qYLRU8j4N9ZckwJBzpiMzDHzU6MD8MS107LLfoW9Fe8X4CY8FVzbzWwRwYaQL5QRWCo4TxtNgpeK8Q==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.2.18(@types/node@20.10.0)(undici@5.28.1)
+      '@builder.io/qwik': 1.2.19(@types/node@20.10.0)(undici@5.28.1)
       '@storybook/builder-vite': 7.5.3(typescript@5.3.2)(vite@5.0.2)
       '@storybook/docs-tools': 7.4.0
       magic-string: 0.30.1
