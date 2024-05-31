@@ -54,11 +54,11 @@ devDependencies:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.33)
   cypress:
-    specifier: 13.6.2
-    version: 13.6.2
+    specifier: 13.10.0
+    version: 13.10.0
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.3.5)(cypress@13.6.2)
+    version: 0.3.0(@builder.io/qwik@1.3.5)(cypress@13.10.0)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -5598,7 +5598,7 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.3.5)(cypress@13.6.2):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.3.5)(cypress@13.10.0):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
@@ -5606,18 +5606,17 @@ packages:
     dependencies:
       '@builder.io/qwik': 1.3.5(@types/node@20.11.1)(undici@6.3.0)
       '@cypress/mount-utils': 4.0.0
-      cypress: 13.6.2
+      cypress: 13.10.0
     dev: true
 
-  /cypress@13.6.2:
-    resolution: {integrity: sha512-TW3bGdPU4BrfvMQYv1z3oMqj71YI4AlgJgnrycicmPZAXtvywVFZW9DAToshO65D97rCWfG/kqMFsYB6Kp91gQ==}
+  /cypress@13.10.0:
+    resolution: {integrity: sha512-tOhwRlurVOQbMduX+KonoMeQILs2cwR3yHGGENoFvvSoLUBHmJ8b9/n21gFSDqjlOJ+SRVcwuh+fG/JDsHsT6Q==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@cypress/request': 3.0.0
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
-      '@types/node': 18.17.15
       '@types/sinonjs__fake-timers': 8.1.1
       '@types/sizzle': 2.3.3
       arch: 2.2.0
