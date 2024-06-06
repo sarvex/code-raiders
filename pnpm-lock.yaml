@@ -54,11 +54,11 @@ devDependencies:
     specifier: 10.4.19
     version: 10.4.19(postcss@8.4.38)
   cypress:
-    specifier: 13.10.0
-    version: 13.10.0
+    specifier: 13.11.0
+    version: 13.11.0
   cypress-ct-qwik:
     specifier: 0.3.0
-    version: 0.3.0(@builder.io/qwik@1.5.5)(cypress@13.10.0)
+    version: 0.3.0(@builder.io/qwik@1.5.5)(cypress@13.11.0)
   eslint:
     specifier: 9.4.0
     version: 9.4.0
@@ -5315,7 +5315,7 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.5.5)(cypress@13.10.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.5.5)(cypress@13.11.0):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
@@ -5323,11 +5323,11 @@ packages:
     dependencies:
       '@builder.io/qwik': 1.5.5(@types/node@20.14.2)(undici@6.18.2)
       '@cypress/mount-utils': 4.0.0
-      cypress: 13.10.0
+      cypress: 13.11.0
     dev: true
 
-  /cypress@13.10.0:
-    resolution: {integrity: sha512-tOhwRlurVOQbMduX+KonoMeQILs2cwR3yHGGENoFvvSoLUBHmJ8b9/n21gFSDqjlOJ+SRVcwuh+fG/JDsHsT6Q==}
+  /cypress@13.11.0:
+    resolution: {integrity: sha512-NXXogbAxVlVje4XHX+Cx5eMFZv4Dho/2rIcdBHg9CNPFUGZdM4cRdgIgM7USmNYsC12XY0bZENEQ+KBk72fl+A==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
@@ -5369,7 +5369,7 @@ packages:
       process: 0.11.10
       proxy-from-env: 1.0.0
       request-progress: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.2
       supports-color: 8.1.1
       tmp: 0.2.1
       untildify: 4.0.0
@@ -10338,14 +10338,6 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /semver@7.5.4:
-    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver@7.6.2:
     resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
     engines: {node: '>=10'}
@@ -10411,7 +10403,7 @@ packages:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.2
-      semver: 7.5.4
+      semver: 7.6.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.1
       '@img/sharp-darwin-x64': 0.33.1
