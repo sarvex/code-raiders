@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.5.5
     version: 1.5.5(@types/node@20.14.12)
   '@playwright/test':
-    specifier: 1.46.1
-    version: 1.46.1
+    specifier: 1.48.0
+    version: 1.48.0
   '@storybook/addon-essentials':
     specifier: 8.1.6
     version: 8.1.6(@types/react@18.2.8)(prettier@3.3.3)(react-dom@18.2.0)(react@18.2.0)
@@ -2418,12 +2418,12 @@ packages:
     dev: true
     optional: true
 
-  /@playwright/test@1.46.1:
-    resolution: {integrity: sha512-Fq6SwLujA/DOIvNC2EL/SojJnkKf/rAwJ//APpJJHRyMi1PdKrY3Az+4XNQ51N4RTbItbIByQ0jgd1tayq1aeA==}
+  /@playwright/test@1.48.0:
+    resolution: {integrity: sha512-W5lhqPUVPqhtc/ySvZI5Q8X2ztBOUgZ8LbAFy0JQgrXZs2xaILrUcNO3rQjwbLPfGK13+rZsDa1FpG+tqYkT5w==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      playwright: 1.46.1
+      playwright: 1.48.0
     dev: true
 
   /@polka/url@1.0.0-next.24:
@@ -9571,18 +9571,18 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /playwright-core@1.46.1:
-    resolution: {integrity: sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==}
+  /playwright-core@1.48.0:
+    resolution: {integrity: sha512-RBvzjM9rdpP7UUFrQzRwR8L/xR4HyC1QXMzGYTbf1vjw25/ya9NRAVnXi/0fvFopjebvyPzsmoK58xxeEOaVvA==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
 
-  /playwright@1.46.1:
-    resolution: {integrity: sha512-oPcr1yqoXLCkgKtD5eNUPLiN40rYEM39odNpIb6VE6S7/15gJmA1NzVv6zJYusV0e7tzvkU/utBFNa/Kpxmwng==}
+  /playwright@1.48.0:
+    resolution: {integrity: sha512-qPqFaMEHuY/ug8o0uteYJSRfMGFikhUysk8ZvAtfKmUK3kc/6oNl/y3EczF8OFGYIi/Ex2HspMfzYArk6+XQSA==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      playwright-core: 1.46.1
+      playwright-core: 1.48.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
