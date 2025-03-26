@@ -40,7 +40,7 @@
     "@storybook/html": "8.6.8",
     "@storybook/html-vite": "8.6.8",
     "@types/eslint": "8.56.12",
-    "@types/node": "20.14.12",
+    "@types/node": "20.17.27",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
     "@vitest/ui": "1.6.1",
