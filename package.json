@@ -39,7 +39,7 @@
     "@storybook/builder-vite": "8.6.8",
     "@storybook/html": "8.6.8",
     "@storybook/html-vite": "8.6.8",
-    "@types/eslint": "8.56.12",
+    "@types/eslint": "9.6.1",
     "@types/node": "20.17.27",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
