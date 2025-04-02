@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.12.1
     version: 1.12.1(vite@6.2.4)
   '@builder.io/qwik-city':
-    specifier: 1.12.1
-    version: 1.12.1(typescript@5.8.2)(vite@6.2.4)
+    specifier: 1.13.0
+    version: 1.13.0(typescript@5.8.2)(vite@6.2.4)
   '@playwright/test':
     specifier: 1.51.1
     version: 1.51.1
@@ -149,8 +149,8 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.12.1(typescript@5.8.2)(vite@6.2.4):
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  /@builder.io/qwik-city@1.13.0(typescript@5.8.2)(vite@6.2.4):
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -1112,20 +1112,6 @@ packages:
 
   /@polka/url@1.0.0-next.24:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
-    dev: true
-
-  /@rollup/pluginutils@5.1.0:
-    resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
-    dependencies:
-      '@types/estree': 1.0.7
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
     dev: true
 
   /@rollup/pluginutils@5.1.4:
@@ -6631,7 +6617,7 @@ packages:
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.8.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.12.1(typescript@5.8.2)(vite@6.2.4)
+      '@builder.io/qwik-city': 1.13.0(typescript@5.8.2)(vite@6.2.4)
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7291,7 +7277,7 @@ packages:
     resolution: {integrity: sha512-OOvVnaBTqJJ2J7X1cM1qpH4pj9jsfTxia1VSuWeyXtf+OnP8d0YI1LHpv8y2NT47wg+n7XiTgh3BvcSffuBWrw==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@rollup/pluginutils': 5.1.0
+      '@rollup/pluginutils': 5.1.4
       imagetools-core: 7.0.2
       sharp: 0.33.5
     transitivePeerDependencies:
