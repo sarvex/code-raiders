@@ -81,8 +81,8 @@ devDependencies:
     specifier: 0.4.1
     version: 0.4.1(@builder.io/qwik@1.12.1)(storybook@8.6.11)(typescript@5.8.2)(vite@6.2.4)
   tailwindcss:
-    specifier: 4.0.17
-    version: 4.0.17
+    specifier: 4.1.4
+    version: 4.1.4
   typescript:
     specifier: 5.8.2
     version: 5.8.2
@@ -6790,8 +6790,8 @@ packages:
     resolution: {integrity: sha512-AsS729u2RHUfEra9xJrE39peJcc2stq2+poBXX8bcM08Y6g9j/i/PUzwNQqkaJde7Ntg1TO7bSREbR5sdosQ+g==}
     dev: true
 
-  /tailwindcss@4.0.17:
-    resolution: {integrity: sha512-OErSiGzRa6rLiOvaipsDZvLMSpsBZ4ysB4f0VKGXUrjw2jfkJRd6kjRKV2+ZmTCNvwtvgdDam5D7w6WXsdLJZw==}
+  /tailwindcss@4.1.4:
+    resolution: {integrity: sha512-1ZIUqtPITFbv/DxRmDr5/agPqJwF69d24m9qmM1939TJehgY539CtzeZRjbLt5G6fSy/7YqqYsfvoTEw9xUI2A==}
     dev: true
 
   /tar@6.2.1:
